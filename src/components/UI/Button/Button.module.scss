@@ -1,0 +1,24 @@
+.button {
+	display: flex;
+	align-items: center;
+    height: 90px;
+
+
+    font-size: 40px;
+
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background: rgb(255, 204, 41);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+	transition: all .25s ease;
+    &:hover {
+        background: rgb(245, 134, 52);
+    }
+    &:active {
+        transform: scale(.98);
+    }
+}
